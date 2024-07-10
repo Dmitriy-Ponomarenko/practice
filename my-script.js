@@ -4,30 +4,7 @@ const button = document.getElementById('heroButton');
 
 button.addEventListener('click', function() {
 
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
-    alert("You computer was hacked. The result was written in your console");
+    // alert("The result was written in your console");
 
     function priceCounter(x, y, z) {
 
