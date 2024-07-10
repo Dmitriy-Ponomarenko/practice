@@ -4,7 +4,7 @@ const button = document.getElementById('heroButton');
 
 button.addEventListener('click', function() {
 
-    // alert("The result was written in your console");
+    alert("The result was written in your console");
 
     function priceCounter(x, y, z) {
 
