@@ -58,8 +58,8 @@ body {
   }
 
 .hero-section {
-    height: 640px;
-    padding: 50px 20px 50px 20px;
+    height: 650px;
+    padding: 50px 0px 50px 0px;
 }
 
 .hero-container {
@@ -70,7 +70,16 @@ body {
     background-color: rgb(149, 149, 149);
     width:auto;
     height: 100%;
-    border-radius: 2%;
+    background-image: linear-gradient(rgba(32, 33, 42, 0.6), rgba(28, 29, 42, 0.6)),
+                      url('./images/leaves.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text-container {
+    background-color: rgba(149, 149, 149, 0.6);
+    padding: 30px;
+    border-radius: 50px;
 }
 
 .hero-title {
@@ -111,7 +120,7 @@ body {
   }
   
   .hero-button:focus {
-    background: rgb(251, 251, 251);
+    background: rgba(251, 251, 251, 0.35);
     color: rgb(27, 65, 75);
   }
 
