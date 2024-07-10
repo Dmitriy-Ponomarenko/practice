@@ -1,0 +1,120 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #161f23;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    overflow: hidden;
+  }
+  
+  
+  ul,
+  ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #404bbf;
+  }
+  
+  a:focus {
+    color: #404bbf;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color:aliceblue;
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  img {
+    display: block;
+  }
+
+.hero-section {
+    height: 640px;
+    padding: 50px 20px 50px 20px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(149, 149, 149);
+    width:auto;
+    height: 100%;
+    border-radius: 2%;
+}
+
+.hero-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.hero-text {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.hero-button {
+    color: rgb(251, 251, 251);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #1b414b;
+    border-radius: 15px;
+    padding: 14px 32px;
+    width: 141px;
+    height: 46px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 38px;
+    transition: background-color, border, 250ms, ease-in-out;
+  }
+  
+  .hero-button:hover {
+    border: 1px solid rgba(251, 251, 251, 0.35);
+    background-color: transparent;
+  }
+  
+  .hero-button:focus {
+    background: rgb(251, 251, 251);
+    color: rgb(27, 65, 75);
+  }
+
+.aboutUs-container {
+ height: 300px;
+}
