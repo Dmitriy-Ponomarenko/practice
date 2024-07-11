@@ -86,8 +86,8 @@ body {
     }
 
     .accordion-item--active .accordion-item__content{
-      max-height: 100px;
-      transition: max-height 0.3s ease-in;
+      max-height: 25px;
+      transition: max-height 0.1s ease-in;
     }
 
     .accordion-item__input {
@@ -122,6 +122,7 @@ body {
  .hero-section {
     height: 650px;
     margin-bottom: 50px;
+    /* border-bottom: 2px solid #3d4b49; */
 }
 
 .hero-container {
