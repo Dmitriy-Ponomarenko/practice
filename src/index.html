@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My HTML-page</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./my-script.js" defer></script>
+    <script src="./js/header.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <ul>
+          <li>
+            <div class="accordion">
+              <div class="accordion-item">
+                <input class="accordion-item__input" type="checkbox" id="accordion-1" />
+                <label class="accordion-item__trigger" for="accordion-1">
+                  Menu
+                </label>
+                <div class="accordion-item__content">
+                  <a href="#about-me" class="ac-menu-text">About</a>
+                  <a href="#benefits" class="ac-menu-text">Benefits</a>
+                  <a href="#projects" class="ac-menu-text">Projects</a>
+                  <a href="#faq" class="ac-menu-text">FAQ</a>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="accordion-menu-container">
+            <div class="ac-menu">
+              <button type="button" class="menu">Menu</button>
+    
+              <div class="ac-menu-panel">
+                <a href="#about-me" class="ac-menu-text">About</a>
+                <a href="#benefits" class="ac-menu-text">Benefits</a>
+                <a href="#projects" class="ac-menu-text">Projects</a>
+                <a href="#faq" class="ac-menu-text">FAQ</a>
+              </div>
+            </div>
+          </div> -->
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="hero-container">
+          <div class="hero-text-container">
+            <h1 class="hero-title">Hello</h1>
+            <p class="hero-text">Here should be your content</p>
+            <button type="button" class="hero-button" id="heroButton">
+              Order
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="aboutUs-section">
+        <div class="aboutUs-container"></div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
