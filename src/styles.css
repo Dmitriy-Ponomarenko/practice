@@ -77,11 +77,12 @@ body {
     }
 
     .accordion-item {
+      color:#88ab92;
       margin-bottom: 20px;
     }
 
     .accordion-item--active .accordion-item__trigger {
-      color:azure;
+      color:#70d798;
     }
 
     .accordion-item--active .accordion-item__content{
@@ -98,10 +99,10 @@ body {
       flex-direction: row;
       align-items: center;
       justify-content: center;
-      padding: 20px;
+      padding-top: 20px;
+      padding-bottom: 40px;
     }
     .accordion-item__content {
-      padding: 0 20px;
       border-top: none;
       max-height: 0;
       overflow: hidden;
@@ -109,11 +110,12 @@ body {
     }
 
     .accordion-item__content a {
-      color: gray;
+      color: #d3d3d3;
+      padding: 0 10px 0 10px;
     }
 
     .accordion-item__content a:hover {
-      color: lightgray;
+      color: #b4d8c2;
     }
   /* Accordion styles */
 
