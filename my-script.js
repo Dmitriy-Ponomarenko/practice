@@ -2,7 +2,7 @@
 
 const button = document.getElementById("heroButton");
 
-button.addEventListener("click", function () {
+button.addEventListener("click", () => {
   // const a = true;
   // while (a == true) {
   //     alert("The result was written in your console");
@@ -65,12 +65,26 @@ button.addEventListener("click", function () {
   const apartment = {
     descr: "Spacious apartment in the city center",
     rating: 4,
+    rooms: ["room-1", "room-2"],
     price: 2153,
   };
-  
-  const keys = Object.keys(apartment);
-  const values = Object.values(apartment);
-  
-  console.log(keys);
-  console.log(values);
+
+  apartment.rating = 5;
+  apartment.prop = "tototo";
+
+  const apartment2 = structuredClone(apartment);
+
+  apartment2.rating = 3;
+  apartment2.price = 1530;
+
+  console.log(apartment);
+  console.log(apartment2);
+
+  // const keys = Object.keys(apartment);
+  // const values = Object.values(apartment);
+  // const prop = "rooms";
+
+  // console.log(keys);
+  // console.log(values);
+  // console.log(apartment[prop]);
 });
