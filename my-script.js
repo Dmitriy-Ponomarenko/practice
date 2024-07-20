@@ -8,21 +8,27 @@ button.addEventListener("click", function () {
   //     alert("The result was written in your console");
   // }
 
-  function priceCounter(x, y, z) {
-    return x * y + z;
-  }
+  // function priceCounter(x, y, z) {
+  //   return x * y + z;
+  // }
 
-  var balance = 3000;
-  const orderCount = 2;
-  const orderPrice = 800;
-  const deliveryPrice = 50;
-  const finalPrice = priceCounter(orderCount, orderPrice, deliveryPrice);
+  // const balance = 3000;
+  // let orderCount = 2;
+  // let orderPrice = 800;
+  // const deliveryPrice = 50;
 
-  const command = `12.745 You ${orderCount} orders will cost you ${finalPrice} credits`;
-  console.log(command.trim());
+  // const order = {
+  //   balance,
+  //   orderCount,
+  //   orderPrice,
+  //   deliveryPrice,
+  // };
 
+  // const finalPrice = priceCounter(order.orderCount, order.orderPrice, order.deliveryPrice);
 
-  
+  // const command = `12.745 You ${order.orderCount} orders will cost you ${finalPrice} credits`;
+  // console.log(command.trim());
+
   // const user = "Kate";
   // switch (user) {
   //   case "Kate":
@@ -55,4 +61,16 @@ button.addEventListener("click", function () {
   // console.log(command[command.length - 1]);
   // console.log(float);
   // console.log(Math.round(float));
+
+  const apartment = {
+    descr: "Spacious apartment in the city center",
+    rating: 4,
+    price: 2153,
+  };
+  
+  const keys = Object.keys(apartment);
+  const values = Object.values(apartment);
+  
+  console.log(keys);
+  console.log(values);
 });
