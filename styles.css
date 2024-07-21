@@ -59,20 +59,42 @@ img {
   margin: 50px 0 50px 0;
 }
 
-.header-container {
+.hide-header-button {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #434455;
+  color: #fff;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.header--hidden {
+  transform: translateY(-100%);
+}
+
+.header {
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   border-top: 2px solid #3d4b49;
   border-bottom: 2px solid #3d4b49;
-  width: 100%;
-  height: 60px;
-}
+  height: 60px;   
+  background-image:url("./images/leaves.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
 
 /* Accordion styles */
-.accordion {
-}
-
 .accordion-item {
   color: #88ab92;
   margin-bottom: 20px;
@@ -129,6 +151,14 @@ img {
   height: 695px;
   margin-bottom: 50px;
   /* border-bottom: 2px solid #3d4b49; */
+  background-color: rgb(149, 149, 149);
+  background-image: linear-gradient(
+    rgba(32, 33, 42, 0.6),
+    rgba(28, 29, 42, 0.6)
+  ),
+  url("./images/leaves.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-container {
@@ -136,16 +166,8 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(149, 149, 149);
   width: auto;
   height: 100%;
-  background-image: linear-gradient(
-      rgba(32, 33, 42, 0.6),
-      rgba(28, 29, 42, 0.6)
-    ),
-    url("./images/leaves.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .hero-text-container {
