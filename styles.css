@@ -94,7 +94,6 @@ img {
   background-image:url("./images/leaves.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
  }
 
 /* Accordion styles */
@@ -162,7 +161,6 @@ img {
   url("./images/leaves.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .hero-container {
